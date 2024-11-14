@@ -96,7 +96,7 @@ function updateCartModal(){
 
     cartTotal.textContent = total.toLocaleString("pt-BR",{
         style: "currency",
-        currency: "BRL"
+        currency: " USS"
     });
     
     cartCounter.innerHTML = cart.length;
